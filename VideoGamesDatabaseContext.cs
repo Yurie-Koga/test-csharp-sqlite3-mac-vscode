@@ -15,7 +15,7 @@ namespace test_csharp_sqlite3_mac_vscode
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Specify the path of the database here
-            optionsBuilder.UseSqlite("Filename=./video-gabes.sqlite");
+            optionsBuilder.UseSqlite("Filename=./video-games.sqlite");
         }
     }
 }
